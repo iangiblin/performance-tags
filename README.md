@@ -1,8 +1,15 @@
 # performance-tags
- experimenting with Unity Tag speed in Unity 2021.2.1f1
+ Experimenting with Unity Tag speed in Unity 2021.2.1f1
  
+ <B>BetterTag</B> is a component which can be attached to each object you want to tag.
  <UL>
- <LI>Using a static list of tagged objects</LI>
+ <LI>Tags are in an enum at the top of BetterTag.cs</LI>
+ <LI>Core data structure is Dictionary(BetterTag, HashSet(GameObject))</LI>
+ </UL>
+
+My speed tests are built into the project.
+
+ <UL>
  <LI>Changing the tag on every object every frame enough times to be measurably slow</LI>
  <LI>Tests conducted on a pretty stable Xeon X5660 6-core system running Win 10 Pro with 30 GB RAM.</LI>
  </UL>
