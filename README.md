@@ -3,7 +3,7 @@
 
 This project builds to a standalone 640x480 windowed application.
 
-Initial tests indicate that Unity Tag is very fast and my version takes about 1.5x as long.
+Initial tests indicate that Unity Tag is very fast and my version takes about 1.7x as long.
 
 ![image](https://user-images.githubusercontent.com/39740472/140593734-c6026ca6-c815-4c51-8894-21c3954ae316.png)
 
